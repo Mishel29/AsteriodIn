@@ -1,0 +1,51 @@
+.asteroid-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.asteroid-list li {
+    background: white;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.asteroid-list li:hover {
+    background: #ddd;
+}
+
+.selected {
+    background: #ccc;
+}
+
+.asteroid-details {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-left: 20px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    text-align: left;
+}
+
+.asteroid-details h3 {
+    text-align: center;
+}
+
+.asteroid-details p {
+    margin: 5px 0;
+}
+
+.close-btn {
+    background-color: red;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+}
